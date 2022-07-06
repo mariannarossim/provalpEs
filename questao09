@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+
 public static void main(String[] args){
             
             ArrayList<String> emprestimo = new ArrayList<String> ();
@@ -40,16 +41,38 @@ public static void main(String[] args){
         
         System.out.println(" MENU ");
         
-        String login = l.nextLine();
+        String menu = l.nextLine();
         
         System.out.println("CPF");
         
-        String cargo = l.nextLine();
+        String cpf = l.nextLine();
         
         System.out.println("Salário");
         
-        int senha = l.nextInt();
+        int salario = l.nextInt();
         
+        Scanner 2 = new Scanner(System.in);
+        
+        System.out.println("TIPO DE CLIENTE");
+        System.out.println("Digite os dados: "+"\nNome ");
+        
+        String Aposentadoinss = l.nextLine();
+        
+        System.out.println(" Aposentado INSS ");
+        
+        String Fpub = l.nextLine();
+        
+        System.out.println("Funcionário Público");
+        
+        String Fprv = l.nextLine();
+        
+        System.out.println("Funcionário Privado");
+        
+        String Fprv = l.nextLine();
+        
+        System.out.println("Funcionário Privado");
+        
+        //
         
         Dados cliente;
         
@@ -62,6 +85,6 @@ public static void main(String[] args){
         
         ArrayList<Dados> cliente = new ArrayList<Dados>();
         
-        cliente.add(usuario);
+        cliente.add(cliente);
         
         System.out.println(cliente.getNome()+"\n"+cliente.getLogin()+"\n"+cliente.getClientes());
