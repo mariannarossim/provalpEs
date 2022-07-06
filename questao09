@@ -72,15 +72,19 @@ public static void main(String[] args){
         
         System.out.println("Funcionário Privado");
         
+        System.out.println("SAIR");
+        System.out.println("SAIR: "+"\nNome ");
+                      
         //
         
         Dados cliente;
         
         usuario = new Dados();
         
-        usuario.setNome(nome);
-        usuario.setLogin(cpf);
-        usuario.setCargo(salario);
+        cliente.setNome(nome);
+        cliente.setLogin(cpf);
+        cliente.setCargo(salario);
+        cliente.setCargo(salario);
         
         
         ArrayList<Dados> cliente = new ArrayList<Dados>();
