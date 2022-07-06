@@ -1,1 +1,26 @@
-
+import java.util.ArrayList;
+import java.util.Arrays;
+public static void main(String[] args){
+            ArrayList<String> emprestimo = new ArrayList<String> ();
+            
+            emprestimo.add("Cliente");
+            System.out.print( "Cadastrar Cliente: " );
+            System.out.println( Arrays.toString( emprestimo.toArray() ) );
+            
+            emprestimo.add("ClienteApos");
+            System.out.print( "Cadastrar Clientes Aposentado INSS: " );
+            System.out.println( Arrays.toString( emprestimo.toArray() ) );
+            
+            emprestimo.add("ClienteFpub");
+            System.out.print( "Cadastrar Clientes Funcionário Público: " );
+            System.out.println( Arrays.toString( emprestimo.toArray() ) );
+            
+            emprestimo.add("ClienteFprv");
+            System.out.print( "Cadastrar Clientes Funcionário Privado: " );
+            System.out.println( Arrays.toString( emprestimo.toArray() ) );
+            
+            emprestimo.add("ClienteS");
+            System.out.print( "Sair: " );
+            System.out.println( Arrays.toString( emprestimo.toArray() ) );
+            
+            
